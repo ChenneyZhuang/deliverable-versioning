@@ -1,0 +1,15 @@
+{
+  "name": "deliverable-versioning",
+  "version": "0.1.0",
+  "description": "Deliverable version discipline: files that left your hands are immutable, dates beat the word final, one authoritative delivery directory per project, and a ledger tying filename to date to count to recipient — so nobody ever asks which FINAL_v3 is the real one.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChenneyZhuang/deliverable-versioning.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
