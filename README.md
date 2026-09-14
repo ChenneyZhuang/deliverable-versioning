@@ -25,6 +25,13 @@ Can you answer, from the delivery directory and ledger alone, without opening ch
 
 只看交付目录和台账，不翻聊天记录，能不能答出：发过什么、发给谁、什么时候、多少行？任何一问需要翻聊天——纪律就还缺着。
 
+## Honest limitations / 如实说明局限
+
+- The ledger is only as good as its discipline: one unwritten send breaks reconciliation.
+- Existing messy folders need a one-time backlog sweep (the skill's Step 2) before the rules pay off.
+
+台账的好坏取决于执行纪律：漏记一次发送，对账就断。存量混乱文件夹需要先做一次性清点（Step 2），规则才能见效。
+
 ## Install / 安装
 
 ```bash
