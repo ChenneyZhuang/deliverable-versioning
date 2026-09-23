@@ -18,6 +18,10 @@ metadata:
 
 # Deliverable Versioning: sent means immutable
 
+## When to use
+
+Use whenever a document or dataset will be revised and re-sent: reports, budgets, client deliverables. Use when filenames like final_v2_TRUE appear. Not for source code (use git) or one-shot files that will never change.
+
 A folder of `FINAL`, `FINAL_v2`, and `FINAL_really` files means nobody trusts
 any of them. The fix is mechanical: immutability after sending, dates over
 the word final, one authoritative directory, and a ledger that answers
@@ -70,3 +74,9 @@ the word final, one authoritative directory, and a ledger that answers
 The project has one delivery directory whose contents match the ledger, sent
 files have kept their bytes, names carry dates instead of final, and "what
 did we send, to whom, when, how many" is answerable from the ledger alone.
+
+## Gotchas / 常见坑
+
+- Dates sort, v-numbers don't: `final_FINAL_v2` is the failure mode this skill exists to kill — name by content-date.
+- Version the delivered artifact, never a working copy: the recipient should always be able to tell what they received and when it was true.
+- One canonical location per deliverable; copies in inboxes and DMs are references, not versions.

@@ -1,0 +1,23 @@
+{
+  "skill_name": "deliverable-versioning",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "这份报表要发第三个版本了，帮我规范命名和归档",
+      "expected_output": "A date-named canonical file (content-date convention), prior versions intact in the canonical location, and a note of what changed between versions.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I keep making files like report_final_v3_TRUE.xlsx — fix my naming scheme",
+      "expected_output": "A rename to the content-date convention, an explanation of the rule, and the old copies consolidated or marked as references.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "帮我把之前的交付文件版本理一下",
+      "expected_output": "An inventory of existing versions with the canonical one identified, out-of-line names flagged, and a dated naming rule going forward.",
+      "files": []
+    }
+  ]
+}
